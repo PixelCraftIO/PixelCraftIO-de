@@ -7,5 +7,6 @@
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
   },
-  "postCreateCommand": "echo 'Codespace ready!'"
+  "postCreateCommand": "composer install && npm install && npm run dev && echo 'Codespace ready!'",
+  "remoteUser": "vscode"
 }
